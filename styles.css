@@ -65,12 +65,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Cor de fundo para a página inteira */
+    background-color: #f0f8ff; 
 }
 
 .area-verde {
-    background-color: #ccffcc; /* Cor de fundo verde claro */
-    padding: 40px;
+    background-color: #ccffcc; 
     text-align: center;
 }
 
@@ -78,3 +77,27 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+.swing {
+    display: inline-block;
+    animation: swing 1s infinite;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(15deg);
+    }
+    40% {
+      transform: rotate(-10deg);
+    }
+    60% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
