@@ -1,9 +1,12 @@
+/* Estilo geral do corpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f8ff; 
 }
 
+/* Estilo do cabeçalho */
 header {
     background-color: #f4ff5c;
     color: rgb(0, 0, 0);
@@ -14,9 +17,11 @@ header h1 {
     margin: 0;
 }
 
+/* Estilo da navegação */
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -29,6 +34,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Estilo do conteúdo principal */
 main {
     padding: 20px;
 }
@@ -37,6 +43,35 @@ section {
     margin-bottom: 40px;
 }
 
+.conteudo-principal {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo das imagens */
+#imagem {
+    width: 100%;
+}
+
+/* Estilo do seletor */
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo dos rótulos */
+label {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Estilo da área verde */
+.area-verde {
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+/* Estilo do rodapé */
 footer {
     background-color: #333;
     color: white;
@@ -47,57 +82,26 @@ footer {
     width: 100%;
 }
 
-#imagem {
-    width: 100%;
-}
-
-select {
-    padding: 10px;
-    font-size: 16px;
-}
-
-label {
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f8ff; 
-}
-
-.area-verde {
-    background-color: #ccffcc; 
-    text-align: center;
-}
-
-.conteudo-principal {
-    padding: 20px;
-    text-align: center;
-}
-
+/* Animação swing */
 .swing {
     display: inline-block;
     animation: swing 1s infinite;
-  }
-  
-  @keyframes swing {
+}
+
+@keyframes swing {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     20% {
-      transform: rotate(15deg);
+        transform: rotate(15deg);
     }
     40% {
-      transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
     60% {
-      transform: rotate(5deg);
+        transform: rotate(5deg);
     }
     100% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  }
-  
+}
